@@ -1,0 +1,62 @@
+# do scripts/compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Start time: 19:38:04 on Mar 03,2026
+# vlog design/uart_tx.v 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 19:38:04 on Mar 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 19:38:04 on Mar 03,2026
+# vlog design/uart_rx.v 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 19:38:04 on Mar 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 19:38:04 on Mar 03,2026
+# vlog design/uart_top.v 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 19:38:04 on Mar 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:04 on Mar 03,2026
+# vlog -sv tb/driver.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:38:04 on Mar 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:04 on Mar 03,2026
+# vlog -sv tb/monitor.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:38:04 on Mar 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:04 on Mar 03,2026
+# vlog -sv tb/scoreboard.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:38:04 on Mar 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:04 on Mar 03,2026
+# vlog -sv tb/tb_uart.sv 
+# -- Compiling module tb_uart
+# 
+# Top level modules:
+# 	tb_uart
+# End time: 19:38:04 on Mar 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
