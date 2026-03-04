@@ -10,15 +10,15 @@ cModel Technology
 Z0 d/home/jonny/Desktop/CourseWork/Scripting/uart_sim
 vtb_uart
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1772633652
+Z2 !s110 1772633935
 !i10b 1
-!s100 DhMU>bGYD3A887EEjM64H3
-I:0I7Y^h6emec26YSnXLYi1
+!s100 ekF4ZNm3zdEVT5;e3NNnU1
+IS80PKDJjPQS:i9CCL[LAQ0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 tb_uart_sv_unit
 S1
 R0
-w1772632993
+w1772633931
 8tb/tb_uart.sv
 Ftb/tb_uart.sv
 L0 2
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1772633652.000000
+Z5 !s108 1772633935.000000
 !s107 tb/tb_uart.sv|
 !s90 -sv|tb/tb_uart.sv|
 !i113 1
@@ -98,7 +98,7 @@ R4
 r1
 !s85 0
 31
-R5
+!s108 1772633934.000000
 !s107 design/uart_tx.v|
 !s90 -sv|design/uart_tx.v|
 !i113 1

@@ -1,6 +1,6 @@
 # do scripts/run.do
 # vsim work.tb_uart -voptargs="+acc" 
-# Start time: 19:44:18 on Mar 04,2026
+# Start time: 19:48:57 on Mar 04,2026
 # Loading sv_std.std
 # Loading work.tb_uart
 # Loading work.uart_top
@@ -23,5 +23,5 @@
 # Time=4130000 TX=1 RX_VALID=0 RX_DATA=a5 BUSY=0
 # ** Note: $finish    : tb/tb_uart.sv(35)
 #    Time: 200120 ns  Iteration: 0  Instance: /tb_uart
-# End time: 19:44:18 on Mar 04,2026, Elapsed time: 0:00:00
+# End time: 19:48:57 on Mar 04,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1

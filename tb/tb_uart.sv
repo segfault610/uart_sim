@@ -34,6 +34,10 @@ initial begin
     #200000;
     $finish;
 end
+initial begin
+    $dumpfile("wave.vcd");
+    $dumpvars(0, tb_uart);   // tb = your testbench module name
+end
 
 initial begin
     $monitor("Time=%0t TX=%b RX_VALID=%b RX_DATA=%h BUSY=%b",
@@ -53,4 +57,3 @@ always @(posedge clk) begin
         $display("RX RECEIVED: %h at time %t", rx_data, $time);
 end
 endmodule
-
