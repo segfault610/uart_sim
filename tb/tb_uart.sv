@@ -35,6 +35,11 @@ initial begin
     $finish;
 end
 
+initial begin
+    $monitor("Time=%0t TX=%b RX_VALID=%b RX_DATA=%h BUSY=%b",
+              $time, tx, rx_valid, rx_data, busy);
+end
+
 // Simple assertion using immediate style
 always @(posedge clk) begin
     if (!rst && !start) begin
